@@ -14,6 +14,8 @@ The final result was this:
 Before getting started, I came up with a few rough sketches of what I wanted to do for my portfolio. I wanted something that was a lot better than my last portfolio, but something simple that would show my projects, my github, my linkedin, as well as some about me info. 
 I know these sketches arent the best, but like I mentioned before, they are called ROUGH sketches for a reason.
 
+<img src='menu-sketch.PNG'>
+<img src= 'pages-sketch.PNG'>
 
 
 After I came up with a plan, it was time to get started. 
