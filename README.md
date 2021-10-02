@@ -49,6 +49,8 @@ I know this portfolio doesn't seem like much, but to me it was one of the funnes
 
 
 # Final Product / Screenshots:
+<img src= 'final-product.png'>
+<img src= 'final-projects.png'>
 
 
 
