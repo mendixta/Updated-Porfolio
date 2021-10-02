@@ -7,45 +7,57 @@
     <link rel = "stylesheet" href = "stylesheet.css"> 
     <!-- Link the JS File here -->
    <script src= "script.js"></script>
+   <!-- Script file for Font Awesome -->
+    <script src="https://kit.fontawesome.com/67537d6602.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Griselda's Portfolio </title>
 </head>
 <body>
     <h1> Griselda Mendieta's Portfolio </h1>
+
+<!-- About me Section + Button -->
+<div class = "page-me" id = "about-me-page"> 
+   <p> Hello and welcome to my portfolio, I appeciate you taking the time to check my projects out!
+       My name is Griselda Mendieta, I am 21 years old and I am currenly studying web-development as well as 
+       aerospace engineering. My biggest supporter is my cat, Charlie. If you have any questions or comments,
+       feel free to send me a message! Thanks!</p>
+    </div>
+   
+
+
 <!-- This is the container for the Links -->
-<!-- Each option will be a button that will take the user to each section -->
 <div class = "link-container" id= "main-container">
-<h2> Below you'll find links to my info </h2>
-    <button class = "about-me" id = "about"> About Me </button>
-    <button class = "projects" id = "projects"> Projects </button>
-    <button class = "git-hub" id = "github"> GitHub</button>
+<h2> Below you'll find links to my info: </h2>
+<!-- Button container-->
+<div class = "btn-container">
+    <input type = "button" onclick="window.location.href = 'https://www.linkedin.com/in/griselda-mendieta-3709ba161/';" class = "linked-in" value = "LinkedIn">
+    <button class = "projects" id = "projects" onclick="openNav()"> Projects </button>
+    <input type = "button" onclick = "window.location.href = 'https://www.github.com/mendixta';" class = "git-hub" value = "GitHub">
+    </div>
 </div>
 
-<!-- (Optional) Make a container for "contact" info ? -->
-<div class = "contact-container">
-    <h2> Contact me! </h2>
+<!-- Container for Projects  -->
+<div id = "projects-nav" class = "p-container">
+<!-- This is for the close button / the "x" button -->
+   <a href = "javascript:void(0)" class = "close-btn" onclick= "closeNav()"> &times;</a>
+   <h3> My Projects </h3>
 
+   <div class = "all-projects">
+<!-- These are the projects that will be in the overlay -->
+<input type = "button" onclick = "window.location.href = 'https://alexdmacon.github.io/task-mp3/';" class = "project-1" value = "Task.mp4">
+<input type = "button" onclick = "window.location.href = 'https://mendixta.github.io/workday-scheduler/';" class = "project-2" value = "Workday Scheduler">
+<input type = "button" onclick = "window.location.href = 'https://mendixta.github.io/Password-Generator/';" class = "project-3" value = "Password Generator">
+    <button class = "project-4" id= "soon-btn"> Coming Soon </button>
+</div>
+    </div>
 
-
-
-
+<div class = "contact-btns">
+<!-- Button to Contact Me -->
+        <a class="contact" href="mailto:griseldaokay@gmail.com"> Contact me!</a>
+    
 </div>
 
-<!-- Create sections for each link below -->
-<div class = "page-me"> 
-    <h2> About Me! </h2>
-<p> Hello and welcome to my portfolio, I appeciate you taking the time to check my projects out!
-    My name is Griselda Mendieta, I am 21 years old and I am currenly studying web-development as well as 
-    aerospace engineering. My biggest supporter is my cat, Charlie. If you have any questions or comments,
-    feel free to shoot me a message! Thanks!
-</p>
-</div>
-
-
-
-
-
-<footer class = "made-by"> Made by Griselda with Love </footer>
+<footer class = "made-by"> Made by Griselda with  <i class="fas fa-heart"></i></footer>
 
 </body>
 </html>
